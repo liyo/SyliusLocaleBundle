@@ -28,7 +28,7 @@
     "require": {
         "php": "^7.3",
         "sylius/locale": "^1.6",
-        "sylius/resource-bundle": "^1.6",
+        "sylius/resource-bundle": "dev-latest",
         "symfony/framework-bundle": "^4.4",
         "symfony/templating": "^4.4"
     },
@@ -70,6 +70,9 @@
         {
             "type": "path",
             "url": "../../*/*"
+        }, {
+            "type": "vcs",
+            "url": "https://github.com/liyo/SyliusResourceBundle"
         }
     ],
     "minimum-stability": "dev",
